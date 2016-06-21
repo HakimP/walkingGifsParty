@@ -1,3 +1,4 @@
+
 .circulo{
 	height: 20vh;
 	width: 20vh;
@@ -9,6 +10,35 @@
 	z-index: 0;
 }
 
+
+.circuloMusica{
+	height: 20vh;
+	width: 20vh;
+	border-radius: 100%;
+	margin-top: 40vh;
+	margin-left: 40%;
+	position: fixed;
+	background-color: black;
+	z-index: 0;
+}
+
+.rectanguloTweet{
+	height: 4vh;
+	width: 4vh;
+	margin-top: 1vh;
+	margin-left: 90%;
+	position: fixed;
+	z-index: 0;
+}
+
+.rectanguloFaces{
+	height: 4vh;
+	width: 4vh;
+	margin-top: 1vh;
+	margin-left: 93%;
+	position: fixed;
+	z-index: 0;
+}
 .gente {
 	height: 10vh;
 	width: 10vh;
@@ -148,22 +178,146 @@
 	margin-top: 40%;
 }
 
-.foooter {
-	width: 100%;
-	background-color: black;
-	height: 60px;
-	text-align: center;
+.gente10 {
+	height: 35vh;
+	width: 35vh;
+	border-radius: 100%;
 	position: absolute;
+	background-color: pink;
+	z-index: 1;
+	margin-left: 700px;
+	margin-top: 700px;
+}
+
+.gente11 {
+	height: 20vh;
+	width: 20vh;
+	border-radius: 100%;
+	position: absolute;
+	background-color: pink;
+	z-index: 1;
+	margin-left: 550px;
+	margin-top: 700px;
+}
+
+.gente12 {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: 21;
+	margin-left: 700px;
+	margin-top: 67%;
+}
+
+.gente13 {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: 21;
+	margin-left: 500px;
+	margin-top: 68%;
+}
+
+.gente14 {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: -1;
+	margin-left: 450px;
+	margin-top: 67%;
+}
+
+.gente15 {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: 21;
+	margin-left: 200px;
+	margin-top: 8%;
+}
+
+.gente16 {
+	height: 100px;
+	width: 100px;
+	position: absolute;
+	z-index: -1;
+	margin-left: 500px;
+	top: 0;
+}
+
+.gente17 {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: -1;
+	margin-left: 400px;
+	margin-top: 20%;
+}
+
+.gente18 {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: 1;
+	margin-left: 600px;
+	margin-top: 50%;
+}
+
+.gente19 {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: 1;
+	margin-left: 400px;
+	margin-top: 80%;
+}
+
+.gente20 {
+	height: 100px;
+	width: 100px;
+	border-radius: 100%;
+	position: absolute;
+	z-index: 1;
+	margin-left: 900px;
+	margin-top: 90%;
+}
+.foooter {
+	width: 95%;
+	background-color: black;
+	height: 10px;
+	text-align: center;
+	position: relative;
 	bottom: 0;
 	/* esto sirve para hacer la barra de bot un styky footer*/
 	clear: both;
-	position: relative;
-	z-index: 10
+	z-index: 0
 	height: 3em;
-	margin-top: -3em;
+	margin-top: 98%;
+}
+
+h1 {
+	color: gold;
+}
+
+.imgDance {
+	width: 80px;
+	height: 80px;
+}
+
+.imgGf {
+	width: 4vh;
+	height: 4vh;
 }
 body {
 	width: 1000px;
 	height: 1000px;
-	background-image: "img/partyBoard.jpg";	
+	background-image: url("../img/dancefloor.jpg");	
+	background-repeat: no-repeat;
 }
